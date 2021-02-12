@@ -1,32 +1,40 @@
 
 
-
 .minha-image{
-        width: 12rem;
-        height: 12rem;
-        border-radius: 100%;
-        margin: 2.3rem auto 2.5rem ;
-        overflow: hidden;
-        position: relative;
+    padding-top: 30px;
+    margin: 0 auto;
+    
 }
-.centro{
-    line-height: 2;
+.minha-foto{
+    width: 50%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    /*object-fit: cover;*/
 }
-#minhafoto{
-    width: initial;
-    height: inherit;
-    max-width: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+.conteudo{
+    max-width: 500px;
+    background-color: antiquewhite;
+    margin: -50px auto 0 auto;
+    display: table;
+    border: 1px darkgray solid;
+    border-radius: 10px;
+    text-align: center;
 }
-.centro-cartao{
-    font-family: sans-serif;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+h3{
+    font-weight: bold;
+    margin-top: 60px;
 }
-#nome{
-    font-size: 16px;
-    font-family: sans-serif;
+h4{
+    margin-top: -10px;
+    color: darkgray;
+}
+.conteudo-descricao{
+    font-style:italic;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
