@@ -6,14 +6,13 @@
     
 }
 .minha-foto{
-    width: 50%;
     display: table;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    /*object-fit: cover;*/
+    object-fit: cover;
 }
 .conteudo{
     max-width: 500px;
@@ -37,4 +36,16 @@ h4{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+}
+a:link{
+    text-decoration: none;
+}
+.conteudo-intereses{
+    text-align: center;
+}
+.icon-linkedin{
+    
+}
+.icon-github{
+    
 }
