@@ -18,10 +18,10 @@
     max-width: 500px;
     background-color: antiquewhite;
     margin: -50px auto 0 auto;
-    display: table;
     border: 1px darkgray solid;
     border-radius: 10px;
     text-align: center;
+    padding-bottom: 10px;
 }
 h3{
     font-weight: bold;
@@ -44,8 +44,6 @@ a:link{
     text-align: center;
 }
 .icon-linkedin{
-    
-}
-.icon-github{
-    
+    margin-right: 5%;
+    margin-left: 5%;
 }
