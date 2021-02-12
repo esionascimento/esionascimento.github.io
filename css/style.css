@@ -3,7 +3,6 @@
 .minha-image{
     padding-top: 30px;
     margin: 0 auto;
-    
 }
 .minha-foto{
     display: table;
@@ -21,7 +20,7 @@
     border: 1px darkgray solid;
     border-radius: 10px;
     text-align: center;
-    padding-bottom: 10px;
+    /*padding: 10px; ######################*/
 }
 h3{
     font-weight: bold;
@@ -44,15 +43,17 @@ a:link{
     text-align: center;
 }
 .social-media{
-    padding: 10px;
+    /*padding: 10px;###########################*/
 }
 .conteudo-pages{
     margin: 30px;
-    
 }
 .bottom{
     border-radius: 10%;
-    padding: 10px;
+    /*padding: 10px;##########################*/
     border: 1px darkgrey solid;
     font-size: 16px;
+}
+.clpadding{
+    padding: 10px
 }
