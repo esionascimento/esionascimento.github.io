@@ -43,7 +43,16 @@ a:link{
 .conteudo-intereses{
     text-align: center;
 }
-.icon-linkedin{
-    margin-right: 5%;
-    margin-left: 5%;
+.social-media{
+    padding: 10px;
+}
+.conteudo-pages{
+    margin: 30px;
+    
+}
+.bottom{
+    border-radius: 10%;
+    padding: 10px;
+    border: 1px darkgrey solid;
+    font-size: 16px;
 }
