@@ -1,10 +1,9 @@
 body{
     background-image: url("/img/aryan-nikhil-lv7c_5ZXCvE-unsplash-500x800-baixa.jpg");
-
+    text-align: center;
 }
 .header{
     position: relative;
-    text-align: center;
     padding-top: 5%;
     margin: 0 auto;
 }
@@ -22,8 +21,6 @@ body{
     margin: -150px auto  auto;
     border: 1px darkgray solid;
     border-radius: 10px;
-    text-align: center;
-    
     /*padding: 10px; ######################*/
 }
 h3{
@@ -45,7 +42,6 @@ h3::after{
     margin: 100px 10px 10px;
 }
 .conteudo-intereses{
-    text-align: center;
     margin: 10px 10px 10px;
 }
 .conteudo-pages{
@@ -67,7 +63,6 @@ h3::after{
 footer{
     background-color: silver;
     position: fixed;
-    text-align: center;
     width: 100%;
     height: 20px;
     margin: auto;
