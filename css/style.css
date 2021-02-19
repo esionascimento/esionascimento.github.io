@@ -2,8 +2,10 @@ body{
     background-image: url("/img/aryan-nikhil-lv7c_5ZXCvE-unsplash-500x800-baixa.jpg");
 
 }
-.minha-foto1{
-    padding-top: 25px;
+.header{
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
     margin: 0 auto;
 }
 .minha-foto2{
@@ -17,23 +19,30 @@ body{
 .conteudo{
     max-width: 500px;
     background-color: antiquewhite;
-    margin: -30px auto  auto;
+    margin: -150px auto  auto;
     border: 1px darkgray solid;
     border-radius: 10px;
     text-align: center;
+    
     /*padding: 10px; ######################*/
 }
 h3{
-    font-weight: bold;
-    margin-top: 40px;
-}
-h4{
     color: darkgray;
+    margin-bottom: 60px;
 }
+h3::after{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background: currentColor;
+    display: block;
+    margin: 0 auto;
+}
+
 .conteudo-descricao{
     font-style:italic;
     text-align: justify;
-    margin: 10px 10px 10px;
+    margin: 100px 10px 10px;
 }
 .conteudo-intereses{
     text-align: center;
