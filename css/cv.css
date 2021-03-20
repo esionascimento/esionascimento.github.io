@@ -1,14 +1,7 @@
-
-*{
-    margin: 0;
-    padding: 0;
-}
 .clpadding{
     padding: 20px;
 }
-h2, div p{
-    text-align: center;
-}
+
 .menu{
     border: 0.1px silver solid;
 }
@@ -17,6 +10,19 @@ a.menu-box{
     margin-right: -0.5%;
     text-decoration: none;
     border-right: 0.1px silver solid;
- 
+}
 
+.bloco {
+    margin-top: 10px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.liProjeto {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.sub {
+    text-decoration: none;
 }
