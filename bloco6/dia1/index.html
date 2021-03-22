@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercício 6.1</title>
+</head>
+<body>
+  <h1>Exercício</h1>
+  <form action="" method="" enctype="multipart/form-data">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="input-text">Nome:
+        <input type="text" name="nome" class="" id="input-text" required maxlength="40">
+      </label>
+      <label for="input-email">Email:
+        <input type="text" name="email" id="input-email" required maxlength="50">
+      </label>
+      <label for="input-cpf">CPF:
+        <input type="text" name="cpf" id="input-cpf" required maxlength="11">
+      </label>
+      <label for="input-endereco">Endereço:
+        <input type="text" name="endereco" id="input-endereco" required maxlength="200">
+      </label>
+      <label for="input-cidade">Cidade:
+        <input type="text" name="cidade" id="input-cidade" required maxlength="28">
+      </label>
+      <label for="input-estado">Estado:
+        <select name="estado" id="input-estado"></select>
+      </label>
+      <label for="radio-casa">
+        <input type="radio" name="tipo" id="radio-casa" value="Casa" >Casa
+      </label>
+      <label for="radio-ap">
+        <input type="radio" name="tipo" id="radio-ap" value="Apartamento" >Apartamento
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Último emprego</legend>
+      <p>Quais experiências: </p>
+      <textarea name="curriculum" id="text-resumo" cols="30" rows="5" required maxlength="1000">ótimo estudante</textarea>
+
+      <label for="input-cargo">Cargo
+        <input type="text" name="cargo" id="input-cargo" value="adm" required maxlength="40">
+      </label>
+
+      <label for="input-descricao-cargo">Descrição do cargo
+        <input type="text" name="descricao" id="input-descricao" required maxlength="500">
+      </label>
+
+      <label for="input-date">Data de início
+        <input type="date" name="data" id="input-date" required>
+      </label>
+    </fieldset>
+    <button type="submit" id="button-enviar">Enviar</button>
+    <button type="reset" id="button-limpar">Limpar</button>
+  </form>
+  <div>
+    <ol id="formulario">
+
+    </ol>
+  </div>
+  <button id="buttonDefault">preventDefault</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>

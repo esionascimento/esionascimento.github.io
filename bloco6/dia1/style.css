@@ -1,0 +1,12 @@
+body {
+  background-color: silver;
+  margin: 5px;
+}
+label {
+  display: block;
+  padding: 1px;
+}
+
+input {
+  margin: 1px;
+}
