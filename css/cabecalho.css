@@ -1,0 +1,13 @@
+.cabPadding{
+  padding: 20px;
+}
+
+.cabMenu{
+  border: 0.1px silver solid;
+}
+a.cabMenuA{
+  font-size: 16px;
+  margin-right: -0.5%;
+  text-decoration: none;
+  border-right: 0.1px silver solid;
+}

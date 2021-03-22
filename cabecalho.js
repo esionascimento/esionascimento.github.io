@@ -1,6 +1,6 @@
 const leBody = document.querySelector('body');
 const leNav = document.createElement('nav');
-leNav.className = 'menu clpadding';
+leNav.className = 'cabMenu cabPadding';
 leBody.appendChild(leNav);
 
 function addNoCabecalho(itag, iclass, itext, ilink){
@@ -11,6 +11,6 @@ function addNoCabecalho(itag, iclass, itext, ilink){
 
   leNav.appendChild(aux);
 }
-addNoCabecalho('a', 'menu-box clpadding', 'Esio Nascimento', '/index.html');
-addNoCabecalho('a', 'menu-box clpadding', 'Trabalhos', '/trabalhos.html');
-addNoCabecalho('a', 'menu-box clpadding', 'CV', '/cv.html');
+addNoCabecalho('a', 'cabMenuA cabPadding', 'Esio Nascimento', '/index.html');
+addNoCabecalho('a', 'cabMenuA cabPadding', 'Trabalhos', '/trabalhos.html');
+addNoCabecalho('a', 'cabMenuA cabPadding', 'CV', '/cv.html');
