@@ -75,6 +75,10 @@ footer{
 }
 
 ion-icon {
-  font-size: 40px;
+  font-size: 30px;
+  color: slateblue;
+}
+
+ion-icon:hover {
   color: blue;
 }

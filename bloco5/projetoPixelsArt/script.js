@@ -1,3 +1,4 @@
+/* esionascimento */
 let corSalva = 'black';
 let aux;
 const corDivBoard = document.querySelector('#color-palette');
