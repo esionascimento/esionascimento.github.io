@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.top-bar {
+  display: flex;
+  background-color: rgb(66, 103, 178);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facebook-logo {
+  width: 220px;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+/* forms */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  width: 150px;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.top-bar label {
+  font-size: 13px;
+  font-family: inherit;
+  color: white;
+}
+
+/* body content */
+.main-content {
+  display: flex;
+}
+
+.left-content {
+  width: 800px;
+}
+
+.right-content {
+  width: 300px;
+}
+
+#label-gender {
+  display: block;
+}
+
+.nomeSobrenome {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#idNome {
+  width: 150px;
+}
+
+#idSobrenome {
+  width: 150px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 20px 0;
+}
+
+.input-text {
+  padding: 10px;
+  margin: 5px 10px 5px 0;
+  border: solid 1px #bdc7d8;
+  border-radius: 5px;
+}
+
+.esconder {
+  opacity: 0;
+}
