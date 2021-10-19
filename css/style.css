@@ -2,6 +2,12 @@ body{
   background-image: url("/img/aryan-nikhil-lv7c_5ZXCvE-unsplash-500x800-baixa.jpg");
   text-align: center;
 }
+
+.disabled {
+  pointer-events: none;
+  cursor: default
+}
+
 .header{
   position: relative;
   padding-top: 5%;
