@@ -75,7 +75,7 @@ footer{
   bottom: 0;
 }
 .button:hover{
-  font-weight: bolder;
+  /* font-weight: bolder; */
   background-color: silver;
   color: black;
 }
